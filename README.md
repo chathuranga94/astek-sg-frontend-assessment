@@ -1,3 +1,13 @@
+
+# How to run
+```
+git clone
+npm install
+npm run dev
+```
+
+***
+
 # Bank Account
 
 Your job is to design and implement a *single-page web application* GUI that handles user input and output. The following writeup and sample input/output are CLI representation of the UI. You should adapt them to suitable web interface accordingly. 
