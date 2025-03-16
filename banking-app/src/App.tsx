@@ -101,13 +101,13 @@ function App() {
             {steps?.map(step => (
               <Button
                 onClick={() => {
-                  setMessage('');
-
                   if (step.key === 'quit') {
                     setIsComplete(false);
                     setSelectedStep('');
+                    setMessage('Thank you for banking with AwesomeGIC Bank. Have a nice day!');
                     return;
                   }
+                  setMessage('');
                   setSelectedStep(step.key)
                 }}
                 variant='contained'
